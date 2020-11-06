@@ -14,4 +14,4 @@ opencv-python-headless - Version 4.4.0.46 - https://pypi.org/project/opencv-pyth
 
 Once you installed those package, then run the following in the terminal
 
-python Revieve_Hair_Annotation.py
+python main.py
