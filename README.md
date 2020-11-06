@@ -10,7 +10,7 @@ PyQT5 - Version 5.15.1 - https://pypi.org/project/PyQt5/
 
 PyQT5-tools- Version 5.15.1.2 - https://pypi.org/project/pyqt5-tools/
 
-opencv-python - Version 4.4.0.46 - https://pypi.org/project/opencv-python/
+opencv-python-headless - Version 4.4.0.46 - https://pypi.org/project/opencv-python-headless/
 
 Once you installed those package, then run the following in the terminal
 
