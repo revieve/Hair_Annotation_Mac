@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Hair_Analysis</class>
+ <widget class="QMainWindow" name="Hair_Analysis">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1134</width>
+    <height>793</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="Image">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1131</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Face_Focus/FF2/00760[M2GBlo].jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Previous">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>560</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Previous</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Next">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>560</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Hair_Color">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>590</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hair_Color</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Hair_Type">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>620</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hair_Type</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Hair_Volume">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>650</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hair_Volume</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Hair_Frizziness">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>680</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hair_Frizziness</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Hair_Lusterness">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>710</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hair_Lusterness</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Finish">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>680</y>
+      <width>221</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Finish</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Filename">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>560</y>
+      <width>611</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Filename</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="Hair_Color_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>590</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Black</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Brown</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Blond</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gray</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Red</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Others</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="Hair_Type_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>620</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Straight</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Wavy</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Curly</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Coily</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Others</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="Hair_Volume_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>650</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Low_Volume</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Average_Volume</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>High_Volume</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="Hair_Frizziness_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>680</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Low_Frizziness</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Average_Frizziness</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>High_Frizziness</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="Hair_Lusterness_comboBox">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>710</y>
+      <width>121</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Low_Lusterness</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Average_Lusterness</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>High_Lusterness</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPlainTextEdit" name="Number_Text">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>590</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Number">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>600</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Number</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1134</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="Source"/>
+    <addaction name="Destination"/>
+    <addaction name="Exit"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="Source">
+   <property name="text">
+    <string>Source</string>
+   </property>
+  </action>
+  <action name="Exit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="Destination">
+   <property name="text">
+    <string>Destination</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
